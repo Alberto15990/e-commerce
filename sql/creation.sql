@@ -49,8 +49,3 @@ CREATE TABLE IF NOT EXISTS "orders"(
     CONSTRAINT fk_shipping FOREIGN KEY (shipping_id) REFERENCES shipping(id)
 
  );
-
-
-
-
- 
